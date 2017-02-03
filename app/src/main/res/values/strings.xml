@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">amlee1-SizeBook</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_add">Add New Entry</string>
+    <string name="button_quit">Quit</string>
+    <string name="button_back">Back</string>
+    <string name="button_confirm">Confirm</string>
+</resources>
