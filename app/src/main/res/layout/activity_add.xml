@@ -4,18 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
-    <Button
-        android:layout_weight="1"
-        android:layout_width="0dp"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/add_name"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_back"
-        android:layout_gravity="bottom|start"
-        android:onClick="toMain" />
-    <Button
-        android:layout_weight="1"
-        android:layout_width="0dp"
+        android:hint="@string/add_name" />
+    <EditText android:id="@+id/add_date"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/button_confirm"
-        android:layout_gravity="bottom|end" />
+        android:hint="@string/add_date"
+        android:inputType="date" />
+    <EditText android:id="@+id/add_neck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_neck"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_bust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_bust"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_chest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_chest"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_waist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_waist"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_hip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_hip"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_inseam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_inseam"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/add_comment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/add_comment" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_confirm" />
+
 </LinearLayout>
